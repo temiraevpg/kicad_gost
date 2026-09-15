@@ -1,0 +1,242 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "B0503S-1WR3"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "DA"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Value" "B0503S-1WR3"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Datasheet" "https://github.com/temiraevpg/kicad_datasheets/dc_convertors/Mornsun_B_S1W3_series_.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Description" "1W, Fixed input voltage, isolated & unregulated single output"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(symbol "B0503S-1WR3_0_1"
+			(rectangle
+				(start -17.5 7.5)
+				(end 17.5 -7.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.5 7.5) (xy -7.5 -7.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.5 7.5) (xy 7.5 -7.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "B0503S-1WR3_1_1"
+			(text "STU"
+				(at 0 2.5 0)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+				)
+			)
+			(pin input line
+				(at -22.5 -2.5 0)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.5 2.5 0)
+				(length 5)
+				(name "VIN"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 -2.5 180)
+				(length 5)
+				(name "0V"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 2.5 180)
+				(length 5)
+				(name "VOUT"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "B0505S-1WR3"
+		(extends "B0503S-1WR3")
+		(property "Reference" "DA"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Value" "B0505S-1WR3"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Datasheet" "https://github.com/temiraevpg/kicad_datasheets/dc_convertors/Mornsun_B_S1W3_series_.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Description" "1W, Fixed input voltage, isolated & unregulated single output"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

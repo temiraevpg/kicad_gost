@@ -1,0 +1,881 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "CBMG708ATS16"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "DA"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Value" "CBMG708ATS16"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://github.com/temiraevpg/kicad_datasheets/analog_switch/CBMG708.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Description" "CMOS Single 8-Channel Analog Multiplexer/Demultiplexer"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(symbol "CBMG708ATS16_0_1"
+			(rectangle
+				(start -17.5 32.5)
+				(end 17.5 -32.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -17.5 -2.5) (xy -7.5 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -17.5 -22.5) (xy -7.5 -22.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.5 32.5) (xy -7.5 -32.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.5 32.5) (xy 7.5 -32.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.5 -12.5) (xy 17.5 -12.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CBMG708ATS16_1_1"
+			(text "SW"
+				(at 0 27.5 0)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+				)
+			)
+			(pin input line
+				(at -22.5 -7.5 0)
+				(length 5)
+				(name "A0"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.5 -27.5 0)
+				(length 5)
+				(name "EN"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 -27.5 180)
+				(length 5)
+				(name "VSS"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 27.5 180)
+				(length 5)
+				(name "S1"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 22.5 180)
+				(length 5)
+				(name "S2"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 17.5 180)
+				(length 5)
+				(name "S3"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 12.5 180)
+				(length 5)
+				(name "S4"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.5 27.5 0)
+				(length 5)
+				(name "D"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 -7.5 180)
+				(length 5)
+				(name "S8"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 -2.5 180)
+				(length 5)
+				(name "S7"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 2.5 180)
+				(length 5)
+				(name "S6"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 7.5 180)
+				(length 5)
+				(name "S5"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 -17.5 180)
+				(length 5)
+				(name "VDD"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 -22.5 180)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.5 -17.5 0)
+				(length 5)
+				(name "A2"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.5 -12.5 0)
+				(length 5)
+				(name "A1"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RS2251XS16"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "DA"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Value" "RS2251XS16"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://github.com/temiraevpg/kicad_datasheets/analog_switch/RS2251.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CMOS Single 8-Channel Analog Multiplexer/Demultiplexer"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(symbol "RS2251XS16_0_1"
+			(rectangle
+				(start -17.5 30)
+				(end 17.5 -30)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -17.5 10) (xy -7.5 10)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -17.5 -10) (xy -7.5 -10)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -17.5 -20) (xy -7.5 -20)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.5 30) (xy -7.5 -30)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.5 30) (xy 7.5 -30)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 17.5 -15) (xy 7.5 -15)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "RS2251XS16_1_1"
+			(text "SW"
+				(at 0 25 0)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 5 180)
+				(length 5)
+				(name "X4"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 -5 180)
+				(length 5)
+				(name "X6"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.5 25 0)
+				(length 5)
+				(name "X"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 -10 180)
+				(length 5)
+				(name "X7"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 0 180)
+				(length 5)
+				(name "X5"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.5 -15 0)
+				(length 5)
+				(name "~{EN}"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.5 -25 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 -25 180)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.5 -5 0)
+				(length 5)
+				(name "A2"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.5 0 0)
+				(length 5)
+				(name "A1"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.5 5 0)
+				(length 5)
+				(name "A0"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 10 180)
+				(length 5)
+				(name "X3"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 25 180)
+				(length 5)
+				(name "X0"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 20 180)
+				(length 5)
+				(name "X1"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 15 180)
+				(length 5)
+				(name "X2"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 -20 180)
+				(length 5)
+				(name "VCC"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
