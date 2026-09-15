@@ -4,4 +4,5 @@
 	(lib (name "Базовые компоненты") (type "KiCad") (uri "${KICAD_GOST_DIR}/kicad_gost_lib/Base.kicad_sym") (options "") (descr "R C VT VD"))
 	(lib (name "Преобразователи DC/DC") (type "KiCad") (uri "${KICAD_GOST_DIR}/kicad_gost_lib/Convertors_DCDC.kicad_sym") (options "") (descr "Convertor DC/DC"))
 	(lib (name "Микроконтроллеры") (type "KiCad") (uri "${KICAD_GOST_DIR}/kicad_gost_lib/Microcontrollers.kicad_sym") (options "") (descr "Microcontrollers MCU ARM AVR RISC-V PIC"))
+	(lib (name "Таблицы") (type "KiCad") (uri "${KICAD_GOST_DIR}/kicad_gost_lib/Table.kicad_sym") (options "") (descr "Универсальные таблицы"))
 )
