@@ -1,6 +1,7 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "Аналоговые коммутаторы") (type "KiCad") (uri "${KICAD_GOST_DIR}/kicad_gost_lib/Analog_switch.kicad_sym") (options "") (descr "Analog Switch Multiplexers Demultiplexers"))
+	(lib (name "Базовые компоненты") (type "KiCad") (uri "${KICAD_GOST_DIR}/kicad_gost_lib/Base.kicad_sym") (options "") (descr "R C VT VD"))
 	(lib (name "Преобразователи DC/DC") (type "KiCad") (uri "${KICAD_GOST_DIR}/kicad_gost_lib/Convertors_DCDC.kicad_sym") (options "") (descr "Convertor DC/DC"))
 	(lib (name "Микроконтроллеры") (type "KiCad") (uri "${KICAD_GOST_DIR}/kicad_gost_lib/Microcontrollers.kicad_sym") (options "") (descr "Microcontrollers MCU ARM AVR RISC-V PIC"))
 )
