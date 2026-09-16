@@ -434,6 +434,235 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "RS2057XH"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "DA"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Value" "RS2057XH"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low Voltage SPDT Analog Switch"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(symbol "RS2057XH_0_1"
+			(rectangle
+				(start -17.5 12.5)
+				(end 17.5 -12.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -17.5 2.5) (xy -7.5 2.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.5 12.5) (xy -7.5 -12.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.5 12.5) (xy 7.5 -12.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "RS2057XH_1_1"
+			(text "SW"
+				(at 0 7.5 0)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 7.5 180)
+				(length 5)
+				(name "NO"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.5 -7.5 0)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 -7.5 180)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.5 0 180)
+				(length 5)
+				(name "COM"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.5 -2.5 0)
+				(length 5)
+				(name "VDD"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.5 7.5 0)
+				(length 5)
+				(name "IN"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "RS2251XS16"
 		(exclude_from_sim no)
 		(in_bom yes)
