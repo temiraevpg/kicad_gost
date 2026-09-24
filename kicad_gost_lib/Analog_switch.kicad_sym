@@ -22,6 +22,7 @@
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -200,7 +201,7 @@
 			(pin input line
 				(at 22.5 27.5 180)
 				(length 5)
-				(name "S1"
+				(name "X0"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -218,7 +219,7 @@
 			(pin input line
 				(at 22.5 22.5 180)
 				(length 5)
-				(name "S2"
+				(name "X1"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -236,7 +237,7 @@
 			(pin input line
 				(at 22.5 17.5 180)
 				(length 5)
-				(name "S3"
+				(name "X2"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -254,7 +255,7 @@
 			(pin input line
 				(at 22.5 12.5 180)
 				(length 5)
-				(name "S4"
+				(name "X3"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -272,7 +273,7 @@
 			(pin input line
 				(at -22.5 27.5 0)
 				(length 5)
-				(name "D"
+				(name "X"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -290,7 +291,7 @@
 			(pin input line
 				(at 22.5 -7.5 180)
 				(length 5)
-				(name "S8"
+				(name "X7"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -308,7 +309,7 @@
 			(pin input line
 				(at 22.5 -2.5 180)
 				(length 5)
-				(name "S7"
+				(name "X6"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -326,7 +327,7 @@
 			(pin input line
 				(at 22.5 2.5 180)
 				(length 5)
-				(name "S6"
+				(name "X5"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -344,7 +345,7 @@
 			(pin input line
 				(at 22.5 7.5 180)
 				(length 5)
-				(name "S5"
+				(name "X4"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -683,6 +684,7 @@
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2.5 2.5)
